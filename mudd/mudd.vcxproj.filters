@@ -18,12 +18,21 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="concurrent_dungeon.cpp">
+    <ClCompile Include="mudd_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mudd_client.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="concurrent_dungeon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mudd_server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mudd_client.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
